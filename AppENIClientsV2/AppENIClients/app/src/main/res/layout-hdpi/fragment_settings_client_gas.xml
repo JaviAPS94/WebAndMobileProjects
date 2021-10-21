@@ -1,0 +1,160 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lo_encontrecom.appeniclients.SettingsClientGasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblSignIn"
+            android:layout_marginTop="@dimen/marginHDPI"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/titleUpdateInformation"
+            android:textColor="@color/ColorTextTitle"
+            android:textSize="@dimen/titleSizeHDPI"
+            android:layout_marginBottom="20dp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/marginBottomActivityHDPI"
+            android:padding="@dimen/paddingHDPI">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTopActivityWithHeaderHDPI"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtFirstName"
+                    android:layout_width="@dimen/txtWidthHDPI"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="@string/lblFirstName"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:layout_marginRight="@dimen/lblMarginHDPI"/>
+
+                <EditText
+                    android:id="@+id/txtLastName"
+                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/txtWidthHDPI"
+                    android:inputType="text"
+                    android:hint="@string/lblLastName"
+                    android:textColorHint="@color/ColorTextTitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/marginBottomActivityHDPI"
+            android:padding="@dimen/paddingHDPI">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtCedulaRUC"
+                    android:layout_width="@dimen/txtWidthHDPI"
+                    android:inputType="number"
+                    android:hint="@string/lblCedulaRUC"
+                    android:enabled="false"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lblMarginHDPI"/>
+
+
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:layout_width="@dimen/txtWidthHDPI"
+                    android:inputType="phone"
+                    android:hint="@string/lblPhone"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:layout_marginBottom="@dimen/lblMarginHDPI"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/marginTopActivityHDPI"
+            android:padding="@dimen/paddingHDPI">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="@dimen/txtWidthHDPI"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lblEmail"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:layout_marginRight="@dimen/lblMarginHDPI"/>
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:hint="@string/lblPassword"
+                    android:layout_width="@dimen/txtWidthHDPI"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:layout_marginBottom="@dimen/lblMarginHDPI"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/paddingHDPI">
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btnMarginTopHDPI"
+                android:background="@drawable/border_btn_lyrics"
+                android:text="@string/btnAccept"
+                android:textSize="@dimen/btnSizeHDPI"
+                android:textColor="@color/ColorTextTitle"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@null"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

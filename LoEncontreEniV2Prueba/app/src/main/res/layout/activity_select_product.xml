@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.SelectUserActivity">
+
+    <TextView
+        android:id="@+id/lblSelecService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/titleSelecProduct"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#00008b" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClientFinal"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnClientFinal"
+            android:textSize="@dimen/btnSize"
+            android:onClick="login"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnDistribuidor"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnDistribuidor"
+            android:textSize="@dimen/btnSize"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.LoginLubricantesActivity">
+
+    <TextView
+        android:id="@+id/lblLogin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/titleLogin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblRUCGranel"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtUser"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="@dimen/width"
+            android:inputType="number"
+            android:layout_height="@dimen/txtHeigh"
+            android:hint="@string/lblPlaceRUCGranel"
+            android:layout_marginBottom="@dimen/lblMargin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblPassword"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="@dimen/width"
+            android:inputType="textPassword"
+            android:hint="@string/lblPlaceLoginPasswordGranel"
+            android:layout_height="@dimen/txtHeigh" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:onClick="menu"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnEnter"
+            android:textSize="@dimen/btnSize"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="@string/btnForgetPassword"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="@dimen/width"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnSignIn"
+            android:textSize="@dimen/btnSize"
+            android:onClick="registro"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!--Subtitle-->
+    <dimen name="lblMarginXHDPI">40dp</dimen>
+    <dimen name="lblMarginSelectXHDPI">20dp</dimen>
+    <!--Para los titulos-->
+    <dimen name="titleSizeXHDPI">30sp</dimen>
+
+    <dimen name="imgMarginTopXHDPI">60dp</dimen>
+    <dimen name="imgMarginBottomXHDPI">25dp</dimen>
+    <dimen name="widthXHDPI">320dp</dimen>
+    <dimen name="btnMarginTopXHDPI">25dp</dimen>
+    <dimen name="btnMarginTopSelectXHDPI">50dp</dimen>
+
+    <!--Botones-->
+    <dimen name="btnSizeXHDPI">20sp</dimen>
+
+
+</resources>

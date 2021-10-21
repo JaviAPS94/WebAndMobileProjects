@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorHeader</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundActivity</item>
+        <item name="android:editTextColor">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="colorControlNormal">@android:color/background_dark</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat">
+
+        <item name="colorPrimary">@color/colorHeader</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundActivity</item>
+        <item name="android:editTextColor">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="colorControlNormal">@color/ColorTextTitle</item>
+        <item name="colorControlActivated">@color/colorForeground</item>
+
+        <item name="android:colorBackground">@color/colorPopup</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#fff</item>
+        <item name="colorControlNormal">@color/ColorTextTitle</item>
+
+    </style>
+
+</resources>

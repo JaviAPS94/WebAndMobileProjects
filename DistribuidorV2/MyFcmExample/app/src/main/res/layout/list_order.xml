@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Cliente"
+            android:textSize="17sp"
+            android:paddingRight="4dp"/>
+
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellido Cliente"
+            android:textSize="17sp"
+            android:paddingRight="4dp"/>
+
+        <TextView
+            android:id="@+id/txtAddres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección Cliente"
+            android:textSize="17sp"
+            android:paddingRight="4dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

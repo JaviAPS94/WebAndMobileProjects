@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacingXHDPI">2dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!--Propiedades Generales -->
+    <dimen name="marginXHDPI">20dp</dimen>
+    <dimen name="marginTopActivityWithHeaderXHDPI">-5dp</dimen>
+    <dimen name="marginBottomActivityWithHeaderXHDPI">-25dp</dimen>
+    <dimen name="marginTopActivityWithoutHeaderXHDPI">-20dp</dimen>
+    <dimen name="widthXHDPI">320dp</dimen>
+    <dimen name="paddingXHDPI">20dp</dimen>
+
+    <!--Para los titulos-->
+    <dimen name="titleSizeXHDPI">30sp</dimen>
+    <dimen name="lblSizeXHDPI">20sp</dimen>
+    <dimen name="SubTitleSizeXHDPI">16sp</dimen>
+
+    <!--Edit Text-->
+    <dimen name="txtHeighXHDPI">30dp</dimen>
+    <dimen name="txtWidthXHDPI">320dp</dimen>
+    <dimen name="txtWidthRegisterXHDPI">170dp</dimen>
+
+
+
+    <!--Subtitle-->
+    <dimen name="lblMarginXHDPI">10dp</dimen>
+
+
+    <!--Tamaño icon botones-->
+    <dimen name="imgWidthXHDPI">100dp</dimen>
+    <dimen name="imgHeighXHDPI">100dp</dimen>
+    <dimen name="imgMarginRightXHDPI">30dp</dimen>
+
+
+    <!--Tamaño linea-->
+    <dimen name="lineWidthFragmentXHDPI">250dp</dimen>
+    <dimen name="lineWidthXHDPI">320dp</dimen>
+    <dimen name="lineHeighXHDPI">2dp</dimen>
+    <dimen name="lineMarginTopXHDPI">20dp</dimen>
+    <dimen name="lineMarginBottomXHDPI">20dp</dimen>
+
+    <!-- Text view-->
+    <dimen name="textView_textSizeXHDPI">25sp</dimen>
+
+    <!--Tamaño icon eni-->
+    <dimen name="imgMarginTopHeaderXHDPI">40dp</dimen>
+
+
+    <dimen name="imgMarginTopXHDPI">60dp</dimen>
+    <dimen name="imgMarginBottomXHDPI">30dp</dimen>
+    <dimen name="imgMarginBottomMenuXHDPI">12dp</dimen>
+
+    <!--Botones-->
+    <dimen name="btnSizeXHDPI">25sp</dimen>
+    <dimen name="btnSizePasswordXHDPI">16sp</dimen>
+    <dimen name="btnSizeSigInXHDPI">17sp</dimen>
+    <dimen name="btnMarginRightXHDPI">15dp</dimen>
+    <dimen name="btnMarginTopXHDPI">25dp</dimen>
+    <dimen name="btnMarginTopBtnsXHDPI">-10dp</dimen>
+
+
+    <!-- Botones textSize-->
+    <dimen name="btntextSizeXHDPI">15sp</dimen>
+
+    <!--Tamaño icon Detalle pedido-->
+    <dimen name="imgWidthPedidoXHDPI">75dp</dimen>
+    <dimen name="imgLayoutPedido_marginRightXHDPI">10dp</dimen>
+
+    <!-- Text view-->
+
+    <dimen name="textViewPedido_marginRightXHDPI">4dp</dimen>
+    <dimen name="txtMarginRightPedidoXHDPI">20dp</dimen>
+
+
+    <!-- Detalle pedido-->
+
+    <dimen name="textViewPedido_textSizeXHDPI">19dp</dimen>
+
+    <!--Botones-->
+
+    <dimen name="btnMarginTopPedidoXHDPI">35dp</dimen>
+
+    <!-- NumberPicker -->
+    <dimen name="layout_widthPedidoXHDPI">40dp</dimen>
+    <dimen name="layout_heightPedidoXHDPI">100dp</dimen>
+
+    <!--Mapa Gas-->
+    <dimen name="mapHeighXHDPI">310dp</dimen>
+    <dimen name="mapPaddingActivityXHDPI">10dp</dimen>
+
+    <!-- Margin top textview-->
+    <dimen name="lblMarginTopXHDPI">10dp</dimen>
+    <dimen name="lblmarginBottomXHDPI">8dp</dimen>
+
+    <!-- layout_marginBottom-->
+    <dimen name="layout_marginBottomXHDPI">90dp</dimen>
+    <dimen name="titleSizeIconXHDPI">23sp</dimen>
+
+    <dimen name="btnImgWidthXHDPI">150dp</dimen>
+    <dimen name="btnImgHeighXHDPI">150dp</dimen>
+
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.appeniclients.SelectCylinderActivity">
+    <TextView
+        android:id="@+id/lblSelecCylinderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/imgMarginTopHDPI"
+        android:gravity="center"
+        android:text="@string/titleSelecCylinderType"
+        android:textSize="@dimen/titleSizeMDPI"
+        android:textColor="@color/ColorTextTitle"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="@dimen/lineWidthMDPI"
+        android:layout_height="@dimen/lineHeighMDPI"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/lineMarginTopMDPI"
+        android:background="@color/ColorLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/marginMDPI"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/btnMarginRightMDPI"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/btnDomestic"
+                android:layout_width="@dimen/btnImgWidthMDPI"
+                android:layout_height="@dimen/btnImgHeighMDPI"
+                android:layout_marginBottom="@dimen/marginMDPI"
+                android:background="@null"
+                android:src="@drawable/icon_domestico_activo_mdpi"
+                android:tag="icon_domestico_activo_mdpi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <ImageButton
+                android:id="@+id/btnMontaCarga"
+                android:layout_width="@dimen/btnImgWidthMDPI"
+                android:layout_height="@dimen/btnImgHeighMDPI"
+                android:layout_marginBottom="@dimen/marginMDPI"
+                android:src="@drawable/icon_montacarga_activo_mdpi"
+                android:background="@null"
+                android:tag="icon_montacarga_activo_mdpi"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="-10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/btnMarginRightMDPI"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/btnIndustrial15"
+                android:layout_width="@dimen/btnImgWidthMDPI"
+                android:layout_height="@dimen/btnImgHeighMDPI"
+                android:layout_marginBottom="@dimen/marginMDPI"
+                android:src="@drawable/icon_industrial_15kg_activo_mdpi"
+                android:background="@null"
+                android:tag="icon_industrial_15kg_activo_mdpi"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/btnIndustrial45"
+                android:layout_width="@dimen/btnImgWidthMDPI"
+                android:layout_height="@dimen/btnImgHeighMDPI"
+                android:layout_marginBottom="@dimen/marginMDPI"
+                android:background="@null"
+                android:src="@drawable/icon_industrial_45kg_activo_mdpi"
+                android:tag="icon_industrial_45kg_activo_mdpi"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

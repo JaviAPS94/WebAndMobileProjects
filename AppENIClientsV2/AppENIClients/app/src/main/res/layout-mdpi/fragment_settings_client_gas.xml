@@ -1,0 +1,171 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lo_encontrecom.appeniclients.SettingsClientGasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblSignIn"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/titleUpdateInformation"
+            android:textColor="@color/ColorTextTitle"
+            android:textSize="@dimen/titleSizeMDPI"
+            android:textStyle="normal|bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginBottomActivityWithHeaderMDPI"
+
+            android:orientation="horizontal"
+            android:padding="@dimen/paddingMDPI">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/linearLayoutMarginTopMPDI"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtFirstName"
+                    android:layout_width="@dimen/txtWidthRegisterGasMDPI"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lblMarginMDPI"
+                    android:hint="@string/lblFirstName"
+                    android:inputType="text"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:textSize="@dimen/titleSizePlaceHolderMDPI" />
+
+                <EditText
+                    android:id="@+id/txtLastName"
+                    android:layout_width="@dimen/txtWidthRegisterGasMDPI"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lblLastName"
+                    android:inputType="text"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:textSize="@dimen/titleSizePlaceHolderMDPI" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginBottomActivityWithHeaderMDPI"
+            android:orientation="horizontal"
+            android:padding="@dimen/paddingMDPI">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/linearLayoutMarginTopMPDI"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtCedulaRUC"
+                    android:layout_width="@dimen/txtWidthRegisterGasMDPI"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="@string/lblCedulaRUC"
+                    android:enabled="false"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:textSize="@dimen/titleSizePlaceHolderMDPI"
+                    android:layout_marginRight="@dimen/lblMarginMDPI"/>
+
+
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:layout_width="@dimen/txtWidthRegisterGasMDPI"
+                    android:inputType="phone"
+                    android:hint="@string/lblPhone"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:textSize="@dimen/titleSizePlaceHolderMDPI"
+                    android:layout_marginBottom="@dimen/lblMarginMDPI"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/marginBottomActivityWithHeaderMDPI"
+            android:orientation="horizontal"
+            android:padding="@dimen/paddingMDPI">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/linearLayoutMarginTopMPDI"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="@dimen/txtWidthRegisterGasMDPI"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lblMarginMDPI"
+                    android:hint="@string/lblEmail"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:textSize="@dimen/titleSizePlaceHolderMDPI" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="@dimen/txtWidthRegisterGasMDPI"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/lblMargin"
+                    android:hint="@string/lblPassword"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/ColorTextTitle"
+                    android:textSize="@dimen/titleSizePlaceHolderMDPI" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/paddingMDPI">
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/btnMarginTopMDPI"
+                android:background="@drawable/border_btn_lyrics"
+                android:text="@string/btnAccept"
+                android:textSize="@dimen/btnSizeMDPI"
+                android:textColor="@color/ColorTextTitle"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@null"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

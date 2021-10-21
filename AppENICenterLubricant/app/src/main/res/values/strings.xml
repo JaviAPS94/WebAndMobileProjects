@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ENI Lubricante</string>
+    <string name="titlePanelPrincipal">BIENVENIDO</string>
+    <string name="subtitlePanelPrincipal">Indica como el usuario llegó hasta aquí</string>
+    <string name="titleSelectType">Seleccione el Método</string>
+    <!--Botones-->
+    <string name="btnEnter">Seleccionar</string>
+    <string name="btnSend">Enviar</string>
+
+
+    <!--Titles header-->
+    <string name="titleHeaderServices">PANEL PRINCIPAL</string>
+
+    <string name="radioBtnApp">\tApp</string>
+    <string name="radioBtnOtro">\tOtro</string>
+
+    <string name="lblTitle">A través de:</string>
+
+    <!--Para el registro-->
+    <string name="mjsRegistroExito">Se ha enviado correctamente</string>
+    <string name="mjsRegistroDatosVacios">Todos los campos son obligatorios</string>
+    <string name="mjsRegistroFallo">Error del Servicio, intente más tarde</string>
+
+
+</resources>

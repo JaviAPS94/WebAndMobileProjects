@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorHeader"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.SelectCylinderTypeActivity">
+
+    <TextView
+        android:id="@+id/lblSelecCylinderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/titleSelecCylinderType"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="#1574a2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblDomestic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:layout_marginTop="@dimen/lblMargin"
+                android:text="@string/lblDomesticCylinder"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/btnDomestic"
+                android:layout_width="150dp"
+                android:layout_height="@dimen/btnHeightHomePage"
+                android:layout_marginBottom="@dimen/margin"
+                android:src="@drawable/icon_domestico"
+                android:background="@null"
+                android:tag="icon_domestico"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblMontaCarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:layout_marginTop="@dimen/lblMargin"
+                android:text="@string/lblMontaCarga"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/btnMontaCarga"
+                android:layout_width="150dp"
+                android:layout_height="@dimen/btnHeightHomePage"
+                android:layout_marginBottom="@dimen/margin"
+                android:src="@drawable/icon_monta_carga"
+                android:background="@null"
+                android:tag="icon_monta_carga"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblIndustril15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:layout_marginTop="@dimen/lblMargin"
+                android:text="@string/lblIndustrial15"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/btnIndustrial15"
+                android:layout_width="150dp"
+                android:layout_height="@dimen/btnHeightHomePage"
+                android:layout_marginBottom="@dimen/margin"
+                android:src="@drawable/icon_industrila15"
+                android:background="@null"
+                android:tag="icon_industrila15"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblIndustril45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:layout_marginTop="@dimen/lblMargin"
+                android:text="@string/lblIndustrial45"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/btnIndustrial45"
+                android:layout_width="150dp"
+                android:layout_height="@dimen/btnHeightHomePage"
+                android:layout_marginBottom="@dimen/margin"
+                android:src="@drawable/icon_industrila45"
+                android:background="@null"
+                android:tag="icon_industrila45"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

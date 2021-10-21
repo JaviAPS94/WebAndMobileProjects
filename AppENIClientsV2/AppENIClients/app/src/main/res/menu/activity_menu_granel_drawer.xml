@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_request"
+            android:icon="@drawable/ic_description_black_18dp"
+            android:title="@string/menuNewRequest" />
+
+        <item
+            android:id="@+id/nav_cancel_request"
+            android:icon="@drawable/ic_cancel_black_18dp"
+            android:title="@string/menuCancelRequest" />
+        <item
+            android:id="@+id/nav_quality_service"
+            android:icon="@drawable/ic_star_half_black_18dp"
+            android:title="@string/menuQualityService" />
+        <item
+            android:id="@+id/nav_sign_off"
+            android:icon="@drawable/ic_power_settings_new_black_18dp"
+            android:title="@string/menuSignOff" />
+    </group>
+
+</menu>

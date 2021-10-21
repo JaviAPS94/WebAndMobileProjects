@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ENI Distribuidor</string>
+
+    <!--Titles header-->
+    <string name="titleHeaderLogin">Iniciar Sesión</string>
+    <string name="titleHeaderOrders">Pedidos</string>
+    <string name="titleOrders">Pedidos</string>
+    <string name="titleDatosOrder">Datos del Pedido</string>
+
+    <!--Titles-->
+    <string name="titleListOrder">Lista de Pedidos</string>
+    <string name="titleLogin">BIENVENIDO</string>
+    <string name="subtitleLogin">Tus pedidos nunca han sido tan rápidos</string>
+
+    <!--Label-->
+    <string name="lblCedulaRUC">Cédula/RUC</string>
+    <string name="lblPassword">Contraseña</string>
+    <string name="lblFirstName">Nombre</string>
+    <string name="lblLastName">Apellido</string>
+    <string name="lblPhone">Teléfono</string>
+
+
+    <!--Botones-->
+    <string name="btnEnter">Ingresar</string>
+    <string name="btnSi">Sí</string>
+    <string name="btnNo">No</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="action_settings">Salir</string>
+
+    <!--Para salir Salir-->
+    <string name="mjsTituloLogout">Salir</string>
+    <string name="mjsBodyLogout">¿Está seguro que desea salir?</string>
+    <string name="mjsExitoLogout">Ha cerrado sesión correctamente</string>
+    <string name="mjsNoLogout">Ha cancelado su pedido correctamente</string>
+
+    <string name="lblPlaceholderLoginUser">Usuario</string>
+    <string name="lblPlaceholderLoginPassword">Contraseña</string>
+
+    <string name="btnForgetPassword">Recuperar Contraseña</string>
+    <string name="btnSignIn">Registrarse</string>
+</resources>

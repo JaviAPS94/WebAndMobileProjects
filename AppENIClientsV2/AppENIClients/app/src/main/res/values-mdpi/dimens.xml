@@ -1,0 +1,132 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_marginMDPI">16dp</dimen>
+    <dimen name="activity_vertical_marginMDPI">16dp</dimen>
+    <dimen name="nav_header_vertical_spacingMDPI">2dp</dimen>
+    <dimen name="nav_header_heightMDPI">176dp</dimen>
+
+    <!--Propiedades Generales -->
+    <dimen name="marginMDPI">40dp</dimen>
+    <dimen name="marginTopActivityWithHeaderMDPI">10dp</dimen>
+    <dimen name="marginBottomActivityWithHeaderMDPI">-25dp</dimen>
+    <dimen name="marginTopActivityWithoutHeader">-20dp</dimen>
+    <dimen name="widthMDPI">420dp</dimen>
+    <dimen name="paddingMDPI">20dp</dimen>
+    <dimen name="paddingRecoverPassMDPI">50dp</dimen>
+    <dimen name="layoutMarginTopMDPI">40dp</dimen>
+    <dimen name="layoutMarginTopRegisterOrderMDPI">20dp</dimen>
+    <dimen name="titleMarginTopMDPI">50dp</dimen>
+
+
+
+
+
+    <!--Para los titulos-->
+    <dimen name="titleSizeMDPI">48sp</dimen>
+    <dimen name="lblSizeMDPI">30sp</dimen>
+
+    <!--Para el subtitulo lema-->
+    <dimen name="titleLemaSizeMDPI">24sp</dimen>
+
+
+    <!--Subtitle-->
+    <dimen name="lblMarginMDPI">10dp</dimen>
+
+
+    <!--Tamaño Botones-->
+    <dimen name="btnSizeMDPI">30sp</dimen>
+    <dimen name="btnMarginTopButtonMDPI">40sp</dimen>
+    <dimen name="btnTextSizeMDPI">25sp</dimen>
+
+    <!--Margin top botones -->
+    <dimen name="btnMarginTopMDPI">60dp</dimen>
+
+    <!--Edit Text-->
+    <dimen name="txtHeighMDPI">100dp</dimen>
+    <dimen name="txtWidthMDPI">272dp</dimen>
+
+    <dimen name="txtHeighRegisterGasMDPI">100dp</dimen>
+    <dimen name="txtWidthRegisterGasMDPI">210dp</dimen>
+
+    <!--Para los placeholder de los edit text-->
+    <dimen name="titleSizePlaceHolderMDPI">30sp</dimen>
+    <!--LinerLayout-->
+    <dimen name="linearLayoutMarginTopMPDI">40dp</dimen>
+    <dimen name="linearLayoutMarginRightMPDI">20dp</dimen>
+    <dimen name="marginTopActivityMDPI">-8dp</dimen>
+
+    <!--LOGO Iniciar Sesión-->
+
+    <dimen name="imgWidthMDPI">160dp</dimen>
+    <dimen name="imgheightMDPI">160dp</dimen>
+
+    <dimen name="imgMarginTopMDPI">85dp</dimen>
+    <dimen name="imgMarginBottomMDPI">20dp</dimen>
+    <dimen name="imgMarginBottomCancelPedMDPI">70dp</dimen>
+
+    <!--Tamaño linea-->
+    <dimen name="lineWidthFragmentMDPI">450dp</dimen>
+    <dimen name="lineWidthMDPI">390dp</dimen>
+    <dimen name="lineHeighMDPI">4dp</dimen>
+    <dimen name="lineMarginTopMDPI">20dp</dimen>
+    <dimen name="lineMarginBottomMDPI">20dp</dimen>
+    <!--Tamaño linea select sylinder-->
+    <dimen name="lineWidthSylinderMDPI">400dp</dimen>
+
+    <!-- Text view-->
+    <dimen name="textView_textSizeMDPI">45sp</dimen>
+    <dimen name="textView_imgBtnSizeMDPI">26sp</dimen>
+
+    <!--Tamaño icon Detalle pedido-->
+    <dimen name="imgWidthPedidoMDPI">150dp</dimen>
+    <dimen name="imgLayoutPedido_marginRightMDPI">12dp</dimen>
+
+
+    <!-- Text view-->
+
+    <dimen name="textViewPedido_marginRightMDPI">6dp</dimen>
+    <dimen name="txtMarginRightPedidoMDPI">30dp</dimen>
+
+    <!-- Detalle pedido-->
+
+    <dimen name="textViewPedido_textSizeMDPI">26dp</dimen>
+
+
+    <!--Botones-->
+
+    <dimen name="btnMarginTopPedidoMDPI">35dp</dimen>
+
+    <!-- NumberPicker -->
+    <dimen name="layout_widthPedidoMDPI">100dp</dimen>
+    <dimen name="layout_heightPedidoMDPI">150dp</dimen>
+
+    <!--Mapa Gas-->
+    <dimen name="mapHeighMDPI">410dp</dimen>
+    <dimen name="mapPaddingActivityMDPI">20dp</dimen>
+
+    <!-- Margin top textview-->
+    <dimen name="lblMarginTopMDPI">10dp</dimen>
+    <dimen name="lblmarginBottomMDPI">8dp</dimen>
+
+    <!--Imagenes Botones-->
+    <dimen name="btnImgWidthMDPI">200dp</dimen>
+    <dimen name="btnImgHeighMDPI">200dp</dimen>
+    <dimen name="btnImgMarginRightMDPI">15dp</dimen>
+    <dimen name="btnMarginRightMDPI">10dp</dimen>
+    <dimen name="btnMarginTopBtnsMDPI">-10dp</dimen>
+
+
+
+    <dimen name="imgMarginTopHeaderMDPI">50dp</dimen>
+
+    <dimen name="btnImgServiceWidthMDPI">200dp</dimen>
+    <dimen name="btnImgServiceHeighMDPI">200dp</dimen>
+    <dimen name="titleSizeIconMDPI">32sp</dimen>
+
+
+    <dimen name="layout_marginBottomMDPI">90dp</dimen>
+
+    <dimen name="subtitleSizeMDPI">30sp</dimen>
+
+</resources>

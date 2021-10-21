@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.SendSolicitudFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblDeliveryTime"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/lblSendSolicitud"
+            android:textColor="@color/colorEstadoPedido"
+            android:textSize="25sp"
+            android:textStyle="normal|bold" />
+
+        <View
+            android:layout_width="290dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:background="#1574a2" />
+
+
+        <Button
+            android:id="@+id/btnCancelOrder"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/width"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnCancel"
+            android:textSize="@dimen/btnSize"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+</FrameLayout>

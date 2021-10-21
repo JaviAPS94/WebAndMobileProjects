@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.appeniclients.MapsGasActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/txtReference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lblMarginMDPI"
+            android:hint="@string/lblReference"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/ColorTextTitle"
+            android:textSize="@dimen/lblSizeMDPI" />
+
+        <TextView
+            android:id="@+id/txtAddres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/lblAddressOrder"
+            android:textSize="@dimen/lblSizeMDPI"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAddressActual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lblMarginMDPI"
+            android:text=""
+            android:textSize="@dimen/lblSizeMDPI" />
+
+        <Button
+            android:id="@+id/btnConfirmOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnSendOrder"
+            android:textColor="@color/ColorTextTitle"
+            android:textSize="@dimen/btnSizeMDPI"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@null" />
+    </LinearLayout>
+
+
+</LinearLayout>

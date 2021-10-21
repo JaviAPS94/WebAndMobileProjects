@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorHeader"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.MainActivity">
+
+    <TextView
+        android:id="@+id/lblSelecService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/titleSelecService"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#00008b" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/marginTopActivityWithoutHeader"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:layout_marginTop="@dimen/lblMargin"
+            android:text="@string/lblGas"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="normal|bold" />
+
+        <ImageButton
+            android:id="@+id/btnGas"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/btnHeightHomePage"
+            android:onClick="login"
+            android:layout_marginBottom="@dimen/margin"
+            android:background="@drawable/animaimageboton"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:text="@string/lblGranel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="normal|bold" />
+
+        <ImageButton
+            android:id="@+id/btnGranel"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/btnHeightHomePage"
+            android:onClick="loginGranel"
+            android:layout_marginBottom="@dimen/margin"
+            android:background="@drawable/anima_btn_image"
+            android:src="@drawable/icon_granel" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:text="@string/lblLubricantes"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="normal|bold" />
+
+        <ImageButton
+            android:id="@+id/btnLubricantes"
+            android:layout_width="@dimen/btnWidthHomePage"
+            android:layout_height="@dimen/btnHeightHomePage"
+            android:onClick="loginLubricante"
+            android:background="@drawable/anima_btn_image"
+            android:src="@drawable/icon_lubricante" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

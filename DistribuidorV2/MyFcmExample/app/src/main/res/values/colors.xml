@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A171B</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorHeader">#FFD300</color>
+    <color name="colorForeground">#ff00</color>
+    <color name="coloButtonWithLyrics">#DFE0E1</color>
+    <color name="coloButtonWithLyricsPress">#D5D6D7</color>
+
+    <color name="colorBackgroundActivity">#efefef</color>
+
+    <color name="colorEstadoPedido">#454545</color>
+
+    <color name="ColorTextTitle">#5C6060</color>
+
+    <color name="colorPopup">#fff</color>
+
+</resources>

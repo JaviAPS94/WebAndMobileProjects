@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lo_encontrecom.appeniclients.OrderInformationGasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblOrderDetail"
+            android:layout_marginTop="@dimen/marginXHDPI"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/titleOrderInformationDetail"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/titleSizeXHDPI"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/paddingXHDPI">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/imgLayoutPedido_marginRightXHDPI"
+                android:id="@+id/icon_cylinder"
+                android:src="@drawable/icon_domestico_activo_xhdpi"
+                android:tag="icon_domestico_activo_xhdpi"/>
+
+
+
+            <TextView
+                android:id="@+id/txtNumberCylinderSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text=""
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/paddingXHDPI"
+            android:paddingRight="@dimen/paddingXHDPI">
+
+            <TextView
+                android:id="@+id/txtNumber"
+                android:layout_marginTop="@dimen/btnMarginTopPedidoXHDPI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elija el número de tanques "
+                android:layout_marginRight="@dimen/txtMarginRightPedidoXHDPI"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textViewPedido_textSizeXHDPI"/>
+
+            <NumberPicker
+                android:id="@+id/txtNumberCylinder"
+                android:layout_width="@dimen/layout_widthPedidoXHDPI"
+                android:layout_height="@dimen/layout_heightPedidoXHDPI"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:layout_below="@id/txtNumberCylinderSelected"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/lblOrderAddress"
+            android:layout_marginTop="@dimen/marginXHDPI"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/titleOrderInformationAddress"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/titleSizeXHDPI"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/paddingXHDPI"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAddressActual1"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/txtMarginRightPedidoXHDPI"/>
+
+            <Button
+                android:id="@+id/btnChoose"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_btn_lyrics"
+                android:text="@string/btnChange"
+                android:textSize="@dimen/btnSizeXHDPI"
+                android:textColor="@color/ColorTextTitle"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

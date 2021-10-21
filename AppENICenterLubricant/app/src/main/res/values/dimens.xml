@@ -1,0 +1,19 @@
+<resources>
+
+    <!--Subtitle-->
+    <dimen name="lblMargin">40dp</dimen>
+    <dimen name="lblMarginSelect">20dp</dimen>
+    <!--Para los titulos-->
+    <dimen name="titleSize">30sp</dimen>
+
+    <dimen name="imgMarginTop">60dp</dimen>
+    <dimen name="imgMarginBottom">25dp</dimen>
+    <dimen name="width">320dp</dimen>
+    <dimen name="btnMarginTop">25dp</dimen>
+    <dimen name="btnMarginTopSelect">50dp</dimen>
+
+    <!--Botones-->
+    <dimen name="btnSize">20sp</dimen>
+
+
+</resources>

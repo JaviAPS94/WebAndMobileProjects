@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ENI Distribuidor</string>
+
+    <!--Titles header-->
+    <string name="titleHeaderLogin">Iniciar Sesión</string>
+    <string name="titleHeaderOrders">Pedidos</string>
+
+    <!--Titles-->
+    <string name="titleLogin">Ingresa tus credenciales</string>
+    <string name="titleListOrder">Lista de Pedidos</string>
+
+    <!--Label-->
+    <string name="lblCedulaRUC">Cédula/RUC</string>
+    <string name="lblPassword">Contraseña</string>
+    <string name="lblFirstName">Nombre</string>
+    <string name="lblLastName">Apellido</string>
+    <string name="lblPhone">Teléfono</string>
+
+
+    <!--Botones-->
+    <string name="btnEnter">Ingresar</string>
+    <string name="btnSi">Sí</string>
+    <string name="btnNo">No</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

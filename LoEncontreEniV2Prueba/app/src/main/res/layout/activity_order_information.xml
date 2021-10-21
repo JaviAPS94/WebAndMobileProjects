@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.OrderInformationActivity">
+
+    <TextView
+        android:id="@+id/lblOrderAddress"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/titleOrderInformationAddress"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/txtAddressActual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección actual"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtAddressActual1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección actual"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnChange"
+            android:textSize="@dimen/btnSize"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/lblOrderDetail"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/titleOrderInformationDetail"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:id="@+id/icon_cylinder"
+            android:src="@drawable/icon_lubricante"
+            android:tag="icon_lubricante"/>
+
+        <TextView
+            android:id="@+id/txtSelectedCylinder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cilindro selecci"
+            android:layout_marginRight="4dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtNumberCylinderSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text=""
+            android:layout_marginRight="25dp"
+            />
+
+        <NumberPicker
+            android:id="@+id/txtNumberCylinder"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:layout_below="@id/txtNumberCylinderSelected"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnAccept"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/border_btn_lyrics"
+        android:text="@string/btnAccept"
+        android:textSize="@dimen/btnSize"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+
+
+
+</LinearLayout>

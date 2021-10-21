@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    tools:context="com.eni.lo_encontrecom.appenicenterlubricant.panel_principal">
+
+    <TextView
+        android:id="@+id/lblWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titlePanelPrincipal"
+        android:textColor="@color/ColorTextTitle"
+        android:textSize="55dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/lblWelcomeLema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/subtitlePanelPrincipal"
+        android:textColor="@color/colorForeground"
+        android:textSize="25sp"
+        android:layout_marginBottom="90dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginTop="@dimen/imgMarginTop"
+        android:layout_marginBottom="@dimen/imgMarginBottom"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo_eni" />
+
+    <Button
+        android:id="@+id/btnSeleccionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnMarginTop"
+        android:background="@drawable/border_btn_lyrics"
+        android:text="Seleccione el método"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textColor="@color/ColorTextTitle"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:background="@null"/>
+
+
+
+</LinearLayout>

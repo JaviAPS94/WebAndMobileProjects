@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.appeniclients.SelectCylinderActivity">
+
+    <TextView
+        android:id="@+id/lblSelecCylinderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginXHDPI"
+        android:gravity="center"
+        android:text="@string/titleSelecCylinderType"
+        android:textSize="@dimen/titleSizeXHDPI"
+        android:textColor="@color/ColorTextTitle"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="@dimen/lineWidthXHDPI"
+        android:layout_height="@dimen/lineHeighXHDPI"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/lineMarginTopXHDPI"
+        android:background="@color/ColorLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/marginXHDPI"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/btnMarginRightXHDPI"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <ImageButton
+                android:id="@+id/btnDomestic"
+                android:layout_width="@dimen/btnImgWidthXHDPI"
+                android:layout_height="@dimen/btnImgHeighXHDPI"
+                android:layout_marginBottom="@dimen/marginXHDPI"
+                android:src="@drawable/icon_domestico_activo_xhdpi"
+                android:background="@null"
+                android:tag="icon_domestico_activo_xhdpi"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <ImageButton
+                android:id="@+id/btnMontaCarga"
+                android:layout_width="@dimen/btnImgWidthXHDPI"
+                android:layout_height="@dimen/btnImgHeighXHDPI"
+                android:layout_marginBottom="@dimen/marginXHDPI"
+                android:src="@drawable/icon_montacarga_activo_xhdpi"
+                android:background="@null"
+                android:tag="icon_montacarga_activo_xhdpi"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/marginTopActivityHDPI"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/btnMarginRightXHDPI"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <ImageButton
+                android:id="@+id/btnIndustrial15"
+                android:layout_width="@dimen/btnImgWidthXHDPI"
+                android:layout_height="@dimen/btnImgHeighXHDPI"
+                android:src="@drawable/icon_industrial_15kg_activo_xhdpi"
+                android:background="@null"
+                android:tag="icon_industrial_15kg_activo_xhdpi"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/btnIndustrial45"
+                android:layout_width="@dimen/btnImgWidthXHDPI"
+                android:layout_height="@dimen/btnImgHeighXHDPI"
+                android:src="@drawable/icon_industrial_45kg_activo_xhdpi"
+                android:background="@null"
+                android:tag="icon_industrial_45kg_activo_xhdpi"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

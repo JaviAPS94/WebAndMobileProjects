@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lo_encontrecom.loencontreeniv2.SignInLubricantesActivity">
+
+    <TextView
+        android:id="@+id/lblSignIn"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/titleSignIn"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/marginBottomActivityWithHeader"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/linearLayoutMarginRight"
+            android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblFirstName"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtFirstName"
+                android:background="@drawable/border_edit_text"
+                android:layout_width="@dimen/txtWidth"
+                android:inputType="text"
+                android:layout_height="@dimen/txtHeigh"
+                android:layout_marginBottom="@dimen/lblMargin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblLastName"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtLastName"
+                android:background="@drawable/border_edit_text"
+                android:layout_width="@dimen/txtWidth"
+                android:inputType="text"
+                android:layout_height="@dimen/txtHeigh"
+                android:layout_marginBottom="@dimen/lblMargin"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/marginBottomActivityWithHeader"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/linearLayoutMarginRight"
+            android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblRUCGranel"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtCedulaRUC"
+                android:background="@drawable/border_edit_text"
+                android:layout_width="@dimen/txtWidth"
+                android:inputType="number"
+                android:layout_height="@dimen/txtHeigh"
+                android:layout_marginBottom="@dimen/lblMargin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPhone"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:background="@drawable/border_edit_text"
+                android:layout_width="@dimen/txtWidth"
+                android:inputType="phone"
+                android:layout_height="@dimen/txtHeigh"
+                android:layout_marginBottom="@dimen/lblMargin"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/marginBottomActivityWithHeader"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/linearLayoutMarginRight"
+            android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblEmail"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:background="@drawable/border_edit_text"
+                android:layout_width="@dimen/txtWidth"
+                android:inputType="textEmailAddress"
+                android:layout_height="@dimen/txtHeigh"
+                android:layout_marginBottom="@dimen/lblMargin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPassword"
+                android:layout_marginBottom="@dimen/lblMargin"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:background="@drawable/border_edit_text"
+                android:layout_width="@dimen/txtWidth"
+                android:inputType="textPassword"
+                android:layout_height="@dimen/txtHeigh"
+                android:layout_marginBottom="@dimen/lblMargin"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/marginTopActivityWithHeader"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:text="@string/lblAddressGranel"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtAddres"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="@dimen/width"
+            android:inputType="textPassword"
+            android:layout_height="@dimen/txtHeigh"
+            android:layout_marginBottom="@dimen/lblMargin"/>
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnAccept"
+            android:onClick="login"
+            android:textSize="@dimen/btnSize"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+</LinearLayout>

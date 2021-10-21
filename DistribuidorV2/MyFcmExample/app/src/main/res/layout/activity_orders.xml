@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.loencontre.javi.myfcmexample.OrdersActivity">
+
+    <TextView
+        android:id="@+id/lblLogin"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/titleListOrder"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:background="#1574a2" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="14dp"
+        >
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre Cliente:"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_height="@dimen/txtHeigh"
+            android:layout_marginBottom="@dimen/lblMargin"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp">
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Apellido Cliente:"
+        android:layout_marginBottom="@dimen/lblMargin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/lblSize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:background="@drawable/border_edit_text"
+        android:layout_width="150dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:enabled="false"
+        android:layout_height="@dimen/txtHeigh"
+        android:layout_marginBottom="@dimen/lblMargin"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Teléfono:"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtCelular"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_height="@dimen/txtHeigh"
+            android:layout_marginBottom="@dimen/lblMargin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Tipo Cilíndro:"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtTipoCilindro"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_height="@dimen/txtHeigh"
+            android:layout_marginBottom="@dimen/lblMargin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Número cilíndros:"
+            android:layout_marginBottom="@dimen/lblMargin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/lblSize"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNumeroTanques"
+            android:background="@drawable/border_edit_text"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:enabled="false"
+            android:layout_height="@dimen/txtHeigh"
+            android:layout_marginBottom="@dimen/lblMargin"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/lblMargin"
+        android:text="Referencia(Lugar):"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/lblSize"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/txtReferencia"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/border_edit_text"
+            android:enabled="false"
+            android:inputType="number" />
+
+
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="Ver dirección"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/btnSize"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnProcesar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="Procesar"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/btnSize"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

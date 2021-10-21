@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lo_encontrecom.appeniclients.OrderStatusGasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddingMDPI"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/imgWidthMDPI"
+            android:layout_height="@dimen/imgheightMDPI"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/nav_header_vertical_spacingMDPI"
+            android:src="@drawable/logo_eni"/>
+
+        <View
+            android:layout_width="@dimen/lineWidthFragmentMDPI"
+            android:layout_height="@dimen/lineHeighMDPI"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/lineMarginTopMDPI"
+            android:layout_marginBottom="@dimen/lineMarginBottomMDPI"
+            android:background="@color/ColorLine" />
+
+        <TextView
+            android:id="@+id/lblDeliveryTime"
+            android:layout_marginTop="@dimen/marginMDPI"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDeliveryTimeOfTheOrder"
+            android:textColor="@color/colorEstadoPedido"
+            android:textSize="@dimen/subtitleSizeMDPI"
+            android:textStyle="normal|bold" />
+
+
+        <Button
+            android:id="@+id/btnCancelOrder"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/imgMarginBottomCancelPedMDPI"
+            android:background="@drawable/border_btn_lyrics"
+            android:text="@string/btnCancel"
+            android:textSize="@dimen/btnTextSizeMDPI"
+            android:textColor="@color/ColorTextTitle"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+</FrameLayout>

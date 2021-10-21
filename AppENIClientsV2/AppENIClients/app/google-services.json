@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "379311003094",
+    "firebase_url": "https://eni-ecuador-ca.firebaseio.com",
+    "project_id": "eni-ecuador-ca",
+    "storage_bucket": "eni-ecuador-ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379311003094:android:06e0dbc1406c4710",
+        "android_client_info": {
+          "package_name": "com.loencontre.javi.myfcmexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379311003094-195math9fsvgif7afkqaej8m7n8cvh41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2yaaa4S1r4udfNTZmm4sVum1Bw7ggXHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379311003094:android:14e079e4c1086a17",
+        "android_client_info": {
+          "package_name": "com.eni.lo_encontrecom.appeniclients"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379311003094-195math9fsvgif7afkqaej8m7n8cvh41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2yaaa4S1r4udfNTZmm4sVum1Bw7ggXHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A171B</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="ColorTextTitle">#5C6060</color>
+    <color name="colorHeader">#eacb43</color>
+    <color name="colorForeground">#a2213f</color>
+    <color name="coloButtonWithLyrics">#DFE0E1</color>
+    <color name="coloButtonWithLyricsPress">#D5D6D7</color>
+
+    <color name="colorBackgroundActivity">#dcdcdc</color>
+
+    <color name="colorEstadoPedido">#454545</color>
+
+    <color name="ColorPrimary2">#F44336</color>
+    <color name="ColorPrimaryDark2">#D32F2F</color>
+    <color name="ColorAccent2">#2196F3</color>
+
+</resources>

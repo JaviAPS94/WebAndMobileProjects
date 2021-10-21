@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <LinearLayout
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txtNameClient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre"
+                    android:textSize="17sp"
+                    android:paddingRight="4dp"/>
+
+                <TextView
+                    android:id="@+id/txtNumberGas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numero gas"
+                    android:textSize="17sp"
+                    android:paddingRight="4dp"/>
+
+                <TextView
+                    android:id="@+id/txtAddres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion"
+                    android:textSize="17sp"
+                    android:paddingRight="4dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSi"
+                android:layout_width="50dp"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="@string/btnSi" />
+
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="50dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btnNo" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

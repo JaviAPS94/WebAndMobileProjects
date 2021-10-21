@@ -1,0 +1,47 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">2dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!--Propiedades Generales -->
+    <dimen name="margin">20dp</dimen>
+    <dimen name="marginTopActivityWithHeader">-5dp</dimen>
+    <dimen name="marginBottomActivityWithHeader">-25dp</dimen>
+    <dimen name="marginTopActivityWithoutHeader">-20dp</dimen>
+    <dimen name="width">320dp</dimen>
+    <dimen name="padding">20dp</dimen>
+
+
+    <!--Para los titulos-->
+    <dimen name="titleSize">30sp</dimen>
+    <dimen name="lblSize">20sp</dimen>
+
+    <!--Subtitle-->
+    <dimen name="lblMargin">10dp</dimen>
+
+    <!--Tamaño Botones-->
+    <dimen name="btnHeightHomePage">100dp</dimen>
+    <dimen name="btnWidthHomePage">200dp</dimen>
+
+    <dimen name="btnSize">20sp</dimen>
+
+    <!--Edit Text-->
+    <dimen name="txtHeigh">30dp</dimen>
+    <dimen name="txtWidth">170dp</dimen>
+
+    <!--LinerLayout-->
+    <dimen name="linearLayoutMarginRight">20dp</dimen>
+
+
+    <!--Edit Text Granel-->
+    <dimen name="txtHeighGranel">30dp</dimen>
+    <dimen name="txtWidthGranel">300dp</dimen>
+
+    <!--Tamaño icon botones-->
+    <dimen name="imgWidth">150dp</dimen>
+    <dimen name="imgHeigh">100dp</dimen>
+    <dimen name="imgMarginRight">45dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_estado_pedido"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Estado del Pedido" />
+        <item
+            android:id="@+id/nav_cancelar_pedido"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cancelar Pedido" />
+
+        <item
+            android:id="@+id/nav_valorar_servicio"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Calificar Servicio" />
+
+    </group>
+
+    <item android:title="Datos Personales">
+        <menu>
+            <item
+                android:id="@+id/nav_configuracion"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/nav_cancelar_cuenta"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cancelar Cuenta" />
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

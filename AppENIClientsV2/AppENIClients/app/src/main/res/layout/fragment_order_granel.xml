@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lo_encontrecom.appeniclients.OrderGranelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+        <TextView
+            android:id="@+id/lblOrderDetail"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/titleHeadeOrderInformationDetailGranel"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/logo_eni"/>
+
+        <View
+            android:layout_width="@dimen/lineWidthFragment"
+            android:layout_height="@dimen/lineHeigh"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/lineMarginTop"
+            android:layout_marginBottom="@dimen/lineMarginBottom"
+            android:background="@color/ColorLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnSendEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_btn_lyrics"
+                android:text="@string/btnSendOrderGranel"
+                android:textColor="@color/ColorTextTitle"
+                android:textSize="@dimen/btnSize"
+
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

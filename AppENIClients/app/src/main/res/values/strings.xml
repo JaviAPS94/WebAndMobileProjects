@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">ENI Ecuador</string>
+
+    <!--Titles header-->
+    <string name="titleHeaderServices">SERVICIOS</string>
+    <string name="titleHeaderSignIn">Registrarse</string>
+    <string name="titleHeaderOrderInformation">Información del pedido</string>
+    <string name="titleHeaderOrderStatus">Estado del Pedido</string>
+
+    <!--Titles Granel-->
+    <string name="titleHeadeOrderInformationDetailGranel">Solicitar pedido</string>
+    <string name="titleHeaderOrderGranel">Envío de solicitud</string>
+
+    <!--Titles-->
+    <string name="titleSelecService">Seleccione el tipo de Servicio</string>
+    <string name="titleLogin">BIENVENIDO</string>
+    <string name="subtitleLogin">Tus pedidos nunca han sido tan rápidos</string>
+    <string name="titleSelecProduct">Seleccione el tipo de Producto</string>
+    <string name="titleSignIn">Escribe tus datos</string>
+    <string name="titleUpdateInformation">Actualiza tus datos</string>
+    <string name="titleSelecCylinderType">Seleccione el tipo de cilindro</string>
+    <string name="titleOrderInformationAddress">Dirección de Entrega</string>
+    <string name="titleOrderInformationDetail">Detalle del pedido</string>
+    <string name="titleQualityService">Calificar Servicio</string>
+
+
+    <!--Label-->
+    <string name="lblGas">Gas</string>
+    <string name="lblGranel">Granel</string>
+    <string name="lblLubricantes">Lubricantes</string>
+    <string name="lblCedulaRUC">Cédula/RUC</string>
+    <string name="lblPassword">Contraseña</string>
+    <string name="lblFirstName">Nombre</string>
+    <string name="lblLastName">Apellido</string>
+    <string name="lblPhone">Teléfono</string>
+    <string name="lblEmail">Correo</string>
+    <string name="lblAddress">Dirección</string>
+    <string name="lblDomesticCylinder">Doméstico 15kg</string>
+    <string name="lblMontaCarga">Monta Carga 16kg</string>
+    <string name="lblIndustrial15">Industrial 15kg</string>
+    <string name="lblIndustrial45">Industrial 45kg</string>
+    <string name="lblLema">Ahora estamos más cerca de ti</string>
+    <string name="lblDeliveryTimeOfTheOrder">Su pedido será entregado en una hora aproximadamente</string>
+    <string name="lblSendSolicitud">Su pedido será entregado en aproximadamente 5 días</string>
+    <string name="lblQualityService">Ayúdanos a mejorar nuestro servicio</string>
+    <string name="lblRazonSocial">Razón Social</string>
+    <string name="lblRUC">RUC</string>
+
+
+    <!--placeholder -->
+
+    <string name="lblPlaceholderRazonSocial">Ingrese razón social...</string>
+    <string name="lblPlaceholderRUC">Ingrese el RUC</string>
+    <string name="lblPlaceholderName">Ingrese el nombre</string>
+    <string name="lblPlaceholderLastname">Ingrese el apellido</string>
+    <string name="lblPlaceholderCedulaRUC">Ingrese cédula/RUC</string>
+    <string name="lblPlaceholderPhone">Ingrese el teléfono</string>
+    <string name="lblPlaceholderEmail">Ingrese el correo</string>
+    <string name="lblPlaceholderPassword">Ingrese contraseña</string>
+    <string name="lblPlaceholderAddress">Ingrese la dirección...</string>
+
+    <string name="lblPlaceholderLoginUser">Usuario</string>
+    <string name="lblPlaceholderLoginPassword">Contraseña</string>
+
+    <!--Botones-->
+    <string name="btnEnter">Entrar</string>
+    <string name="btnAccept">Aceptar</string>
+    <string name="btnForgetPassword">Recuperar Contraseña</string>
+    <string name="btnSignIn">Registrarse</string>
+    <string name="btnChange">Elegir</string>
+    <string name="btnCancel">Cancelar Pedido</string>
+    <string name="btnConfirmOrder">Confirmar Pedido</string>
+    <string name="btnSend">Enviar</string>
+    <string name="btnSi">Sí</string>
+    <string name="btnNo">No</string>
+    <string name="btnSendOrder">Enviar Pedido</string>
+    <string name="btnClientFinal">Cliente Final</string>
+    <string name="btnDistribuidor">Distribuidor</string>
+    <!--Granel-->
+    <string name="btnSendOrderGranel">Enviar Solicitud</string>
+
+
+    <!--Mensajes cuadro de dialogo-->
+
+    <!--Para el cuadro de dialogo para el Pedido-->
+    <string name="mjsTituloPedido">Realizar Pedido</string>
+    <string name="mjsBodyPedido">¿Está seguro que desea realizar el pedido?</string>
+    <string name="mjsExitoPedido">Ha realizado el pedido correctamente</string>
+    <string name="mjsCancelPedido">Su pedido se ha cancelado correctamente</string>
+
+    <!--Para el cuadro de dialogo para Cancelar la cuenta-->
+    <string name="mjsTitulo">Eliminar Cuenta</string>
+    <string name="mjsBody">¿Está seguro que desea cancelar su cuenta?</string>
+    <string name="mjsExito">Ha cancelado su cuenta correctamente</string>
+    <string name="mjsCancel">No ha cancelado su cuenta</string>
+
+    <!--Para el cuadro de dialogo para Cancelar la pedido-->
+    <string name="mjsTituloCancelOrder">Cancelar pedido</string>
+    <string name="mjsBodyCancelOrder">¿Está seguro que desea cancelar su pedido?</string>
+    <string name="mjsExitoCancelOrder">Ha cancelado su pedido correctamente</string>
+    <string name="mjsNoOrder">No se ha cancelado su pedido</string>
+
+    <!--Para enviar calificación-->
+    <string name="mjsExitoEnvio">Calificación enviada correctamente</string>
+
+    <!--Para salir Salir-->
+    <string name="mjsTituloLogout">Salir</string>
+    <string name="mjsBodyLogout">¿Está seguro que desea salir?</string>
+    <string name="mjsExitoLogout">Ha cancelado su cuenta correctamente</string>
+    <string name="mjsNoLogout">Ha cancelado su pedido correctamente</string>
+
+    <!--Para el registro de un cliente-->
+    <string name="mjsRegistroExito">Se ha creado su cuenta</string>
+    <string name="mjsRegistroDatosVacios">Todos los campos son obligatorios</string>
+    <string name="mjsRegistroFallo">Error del Servicio, intente más tarde</string>
+
+    <!--Para la validación de cuenta-->
+    <string name="mjsNoExistingUser">No tiene una cuenta registrada!</string>
+
+</resources>
